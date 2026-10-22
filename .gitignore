@@ -1,0 +1,14 @@
+# .NET Build artifacts
+bin/
+obj/
+*.user
+.vs/
+
+# Secrets (CRITICAL!)
+appsettings.json
+appsettings.Development.json
+.env
+
+# React (we will use this later)
+node_modules/
+web/dist/
